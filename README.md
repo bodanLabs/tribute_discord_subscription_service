@@ -3,6 +3,9 @@
 
 This project integrates a **Discord bot** with **Stripe** using **Flask** and **discord.py** to manage subscription systems in Discord servers. The bot listens to Stripe webhooks to assign or remove roles based on successful payments or subscription cancellations.
 
+# Disclaimer
+Disclaimer: This project is for educational and integration purposes only. You are responsible for securely configuring Stripe webhooks, validating webhook signatures, and protecting sensitive credentials. Make sure your Discord role permissions and subscription logic match your server’s access policies before using this in production.
+
 ## Features
 
 - **Stripe Webhook Integration**: Listens to Stripe events like `invoice.payment_succeeded` and `customer.subscription.deleted`.
